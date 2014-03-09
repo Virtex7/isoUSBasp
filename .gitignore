@@ -1,36 +1,14 @@
-# Ignore list for Eagle, a PCB layout tool
+# Ignore list for KiCad, a PCB layout tool
 
 # Backup files
-*.s#?
-*.b#?
-*.l#?
+*.bak
 
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
 
-# CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+# Output files
 
-*.dri
-*.drl
-*.gpi
-*.pls
+*.svg
+*.ps
+*.pdf
 
-*.drd
-*.drd.*
+GERBER-Files
 
-*.info
-
-*.eps
