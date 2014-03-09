@@ -37,6 +37,7 @@ versorgen. Maximalstrom ist dabei 200mA bei 5V und ca 300mA bei 3,3V, durch eine
 Widerstand dauerhaft kurzschlussfest. (dabei bricht die Spannung zusammen)
 
 
+
 Hardware:
 
 Schaltplan und Layout und alle nötigen Libs wurden entweder von mir erstellt oder sind
@@ -47,8 +48,11 @@ aktuellste Version ist und KiCad momentan recht schnell entwickelt wird.
 
 Software:
 
-Das Produkt ist zu 100% kompatibel zur FISCHL-USBasp-Software, dafür wurden ein paar
+Das Produkt ist zu fast 100% kompatibel zur FISCHL-USBasp-Software, dafür wurden ein paar
 Inverter extra verbaut, das hätte man auch in Software machen können.
+Allerdings muss das Relais an PC3 nach erfolgter Anmeldung am USB angeschaltet werden,
+das ist und wird die einzige Modifikation an der Software.
+
 
 Daher verweise ich auch auf die Homepage von Thomas Fischl:
 http://www.fischl.de/usbasp/
