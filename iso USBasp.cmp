@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = So 09 Mär 2014 21:39:21 CET
+Cmp-Mod V01 Created by Cvpcb (2014-04-04 BZR 4786)-product   date = Sa 05 Apr 2014 19:03:13 CEST
 
 BeginCmp
 TimeStamp = /531B71E9;
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /531B8EB4;
 Reference = C7;
 ValeurCmp = 100u;
-IdModule  = ;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM8_RM3-5;
 EndCmp
 
 BeginCmp
@@ -123,7 +123,7 @@ BeginCmp
 TimeStamp = /531B8D5E;
 Reference = C18;
 ValeurCmp = 100u;
-IdModule  = ;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM8_RM3-5;
 EndCmp
 
 BeginCmp
@@ -263,7 +263,7 @@ BeginCmp
 TimeStamp = /531C0496;
 Reference = D13;
 ValeurCmp = com. kath.;
-IdModule  = ;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
 EndCmp
 
 BeginCmp
@@ -284,28 +284,28 @@ BeginCmp
 TimeStamp = /531BA062;
 Reference = D16;
 ValeurCmp = 30V 1A;
-IdModule  = ;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /531CA662;
 Reference = D17;
 ValeurCmp = P6KE6,8A;
-IdModule  = ;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /531CA672;
 Reference = D18;
 ValeurCmp = P6KE6,8A;
-IdModule  = ;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /531CA67D;
 Reference = D19;
 ValeurCmp = P6KE6,8A;
-IdModule  = ;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -319,14 +319,14 @@ BeginCmp
 TimeStamp = /531C860F;
 Reference = IC2;
 ValeurCmp = SN74LVC2G04;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT23_6;
 EndCmp
 
 BeginCmp
 TimeStamp = /531C8B9A;
 Reference = IC3;
 ValeurCmp = SN74LVC2G04;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT23_6;
 EndCmp
 
 BeginCmp
@@ -375,21 +375,21 @@ BeginCmp
 TimeStamp = /531C85F9;
 Reference = IC10;
 ValeurCmp = SN74LVC2G14-EP;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT23_6;
 EndCmp
 
 BeginCmp
 TimeStamp = /531B9DC6;
 Reference = IC11;
 ValeurCmp = MCP16301;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT23_6;
 EndCmp
 
 BeginCmp
 TimeStamp = /531BF8BA;
 Reference = IC12;
 ValeurCmp = TLV3501;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT23_6;
 EndCmp
 
 BeginCmp
@@ -424,14 +424,14 @@ BeginCmp
 TimeStamp = /531BA914;
 Reference = P1;
 ValeurCmp = CONN_3X2;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /531BAC46;
 Reference = P2;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x04;
 EndCmp
 
 BeginCmp
@@ -445,7 +445,7 @@ BeginCmp
 TimeStamp = /531BB0C3;
 Reference = Q2;
 ValeurCmp = MOSFET_N;
-IdModule  = ;
+IdModule  = SMD_Packages:DPAKGDS;
 EndCmp
 
 BeginCmp
@@ -465,8 +465,8 @@ EndCmp
 BeginCmp
 TimeStamp = /531C0064;
 Reference = Q5;
-ValeurCmp = MOS_P;
-IdModule  = ;
+ValeurCmp = IRF7410;
+IdModule  = SMD_Packages:SO8N;
 EndCmp
 
 BeginCmp
@@ -479,8 +479,8 @@ EndCmp
 BeginCmp
 TimeStamp = /531C0052;
 Reference = Q7;
-ValeurCmp = MOS_P;
-IdModule  = ;
+ValeurCmp = IRF7410;
+IdModule  = SMD_Packages:SO8N;
 EndCmp
 
 BeginCmp
@@ -711,7 +711,7 @@ BeginCmp
 TimeStamp = /531BB8E7;
 Reference = U1;
 ValeurCmp = 74HC245;
-IdModule  = ;
+IdModule  = SMD_Packages:SO20L;
 EndCmp
 
 BeginCmp
