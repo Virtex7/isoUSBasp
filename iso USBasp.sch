@@ -1179,21 +1179,8 @@ F 3 "" H 4600 6800 60  0000 C CNN
 	1    4600 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L INDUCTOR_SMALL L1
-U 1 1 531B8EE3
-P 4350 6800
-F 0 "L1" H 4350 6900 50  0000 C CNN
-F 1 "100uH" H 4350 6750 50  0000 C CNN
-F 2 "" H 4350 6800 60  0000 C CNN
-F 3 "" H 4350 6800 60  0000 C CNN
-	1    4350 6800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	4100 6800 4000 6800
-Wire Wire Line
-	4600 6800 4950 6800
+	4000 6800 4950 6800
 Wire Wire Line
 	3350 3250 3350 2050
 Wire Wire Line
@@ -1697,9 +1684,9 @@ $EndComp
 Text Notes 9850 3750 0    60   ~ 0
 Output Power Driver\n+-24mA pro Kanal\nmit Shutdown (X)\nZusatz: Schutzdioden!
 Wire Wire Line
-	7200 3900 7500 3900
+	7200 3900 7550 3900
 Wire Wire Line
-	7200 5000 7500 5000
+	7500 5000 7200 5000
 $Comp
 L AGND #PWR066
 U 1 1 531BC759
@@ -1832,14 +1819,6 @@ F 3 "" H 8100 3700 60  0000 C CNN
 $EndComp
 Text Notes 7600 5150 0    60   ~ 0
 Schmitt-Trigger-Inputs\n --- Inverting ---
-Wire Wire Line
-	7500 5000 7500 4650
-Wire Wire Line
-	7500 4650 7600 4650
-Wire Wire Line
-	7600 4150 7500 4150
-Wire Wire Line
-	7500 4150 7500 3900
 Text Notes 4700 2200 0    60   ~ 0
 TRACO DCDC-Wandler, 5V -> 5V\n200mA max. out. Current\n3kV Dauerisolierung, 6kV Kurzzeit
 Connection ~ 6850 2900
@@ -2854,4 +2833,13 @@ F 3 "" H 5500 1700 60  0000 C CNN
 	1    5500 1700
 	-1   0    0    1   
 $EndComp
+Connection ~ 4600 6800
+Wire Wire Line
+	7500 4150 7600 4150
+Wire Wire Line
+	7550 3900 7550 4650
+Wire Wire Line
+	7550 4650 7600 4650
+Wire Wire Line
+	7500 5000 7500 4150
 $EndSCHEMATC

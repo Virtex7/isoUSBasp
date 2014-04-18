@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-04 BZR 4786)-product   date = Sa 05 Apr 2014 19:03:13 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-04 BZR 4786)-product   date = Fr 18 Apr 2014 18:09:24 CEST
 
 BeginCmp
 TimeStamp = /531B71E9;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /531C2675;
 Reference = C5;
 ValeurCmp = X2 1n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor13x4RM10;
 EndCmp
 
 BeginCmp
@@ -407,17 +407,10 @@ IdModule  = Sockets_DIP:DIP-10__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /531B8EE3;
-Reference = L1;
-ValeurCmp = 100uH;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /531BA076;
 Reference = L2;
 ValeurCmp = 15uH;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
@@ -689,14 +682,14 @@ EndCmp
 BeginCmp
 TimeStamp = /531C58F4;
 Reference = SW1;
-ValeurCmp = SWITCH_INV;
+ValeurCmp = APEM SS25136NH;
 IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /531BF00B;
 Reference = SW2;
-ValeurCmp = SWITCH_INV_MSM;
+ValeurCmp = APEM SS25139NH;
 IdModule  = ;
 EndCmp
 
